@@ -68,6 +68,10 @@ p {
   list-style: none;
 }
 
+#navbar li:hover {
+  background-color: orange;
+}
+
 #navbar a {
   display: block;
   padding: 5px 20px;
