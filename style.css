@@ -41,17 +41,20 @@ body,html {
     overflow-wrap: break-word;
 }
 
-header {
-  color: var(--color-text-stronger);
-  margin: 10px;
-  text-align: center;
+h1 {
   font-size: 1.8em;
-  font-weight: 200;
+  color: var(--color-text-stronger);
+  margin: 20px;
 }
 
-#main-doc header {
-  text-align: left;
-  margin: 10px 0;
+h2 {
+  font-size: 1.4em;
+  color: var(--color-text-stronger);
+  padding: 27px 0 0 0;
+}
+
+p {
+  margin: 5px 0;
 }
 
 #navbar ul {
@@ -67,7 +70,7 @@ header {
 
 #navbar a {
   display: block;
-  padding: 5px 10px;
+  padding: 5px 20px;
   color: var(--color-text);
   text-decoration: none;
 }
@@ -100,7 +103,7 @@ section li {
   #navbar ul {
     border-top: 1px solid;
     border-bottom: 1px solid;
-    height: 207px;
+    height: 190px;
   }
 
   #navbar li:first-child {
